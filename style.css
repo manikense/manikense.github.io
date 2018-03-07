@@ -1,0 +1,267 @@
+body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+	background-color: #333333;
+	
+}
+
+.banner{
+	border-top-color:#595959;
+	background-color: hsla(127, 96%, 90%, 0.6);
+	position:fixed;
+	width:100%;
+	height:15%;
+	Text-align:center;
+	z-index:6;
+	padding-bottom:10px;
+	line-height:40px;
+
+}
+.banner a{
+	color:#FFFFFF;
+	opacity:100%;
+	text-decoration: none;
+	word-Spacing: 30px;
+	font-size:18px;
+	
+}
+.banner a:hover {
+    color: #667f69;
+	text-decoration: none;
+}
+h1{
+	font-size:60px;
+	font-family: Courier New;
+	
+}
+h2{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+	z-index:5;
+	color:hsl(127, 96%, 90%);
+}
+p{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:white;
+}
+
+#aboutme{
+	height:400px;
+	position: relative;
+	padding-top:150px;
+}
+
+#aboutme p{
+	padding-left:300px;
+	width:60%;
+	text-align: justify;
+    text-justify: inter-word;
+	line-height:30px;
+
+	
+}
+#aboutme img {
+	float:left;
+	padding-left: 50px;
+	
+}
+
+#education h2{
+	width:250px;
+	padding-left:100px;
+	font-size:20px;
+	text-align:center;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+#education p{
+	width:250px;
+	padding-left:100px;
+	font-size:16px;
+	text-align:center;
+	color: #ffffff;
+	opacity:1;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	line-height:40px;
+}
+#education h3{
+	width:250px;
+	padding-left:100px;
+	font-size:25px;
+	text-align:center;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+#education{
+	background-image: url("https://tinyurl.com/y7r645mg") ;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+	height:500px;
+	filter: grayscale(90%) brightness(85%);
+	padding-top:150px;
+}
+#education img{
+	width:50px;
+	height:50px;
+	padding-left:200px;
+	text-align:center;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+
+#experience{
+	height:400px;
+	padding-top:150px;
+}
+#experience h2{
+	padding-bottom: 50px;
+	
+}
+
+
+.imagensbg{
+	height:45%;
+	width:19%;
+	display:inline-block;
+	margin:4px;
+	position:relative;
+	padding-left:150px;
+	padding-right;100px;
+}
+
+.imagensbg img{
+	width:100%;
+	height:100%;
+	border-radius:4px;
+	transition:1s;
+}
+
+.imagensbg:hover img{
+	filter: grayscale(100%) blur(3px) brightness(60%);
+	
+}
+.imagensbg h3{
+	position:absolute;
+	top:10%;
+	z-index:1;
+	text-align:center;
+	width:60%;
+	opacity:0;
+	transition:.1s;
+}
+	.imagensbg:hover h3 {
+	opacity:1;
+}
+
+
+.imagensbg p{
+	position:absolute;
+	top:30%;
+	z-index:1;
+	color:#fff;
+	text-align:center;
+	width:60%;
+	opacity:0;
+	transition:.1s;
+	
+}
+	.imagensbg:hover p {
+	opacity:1;
+}
+
+
+#extraactivities{
+	height:400px;
+	padding-top:150px;
+	width:100%;
+	
+	
+}
+#extraactivities p {
+	text-align:center;
+	line-height:0.5;
+	
+}
+
+.slide{
+	padding-left:320px;	
+}
+
+#skills{
+	height:400px;
+	padding-top:150px;
+	background:#00000;
+	z-index:6;
+}
+
+#skills img {
+	width:40%;
+	padding-left:50px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#Designs{
+	height:400px;
+	padding-top:150px;
+	line-height:20px;
+	padding-bottom:200px;
+}
+
+#Designs p{
+	text-align:center;
+	
+}
+
+.buttonright{
+	float:right;
+	padding-right:30%;
+	background:none;
+	border:none;
+	padding-bottom:70px;
+	font-size:50px;
+}
+.buttonleft {
+	padding-left:30%;
+	background:none;
+	border:none;
+	width:10%;
+	padding-bottom:70px;
+	font-size:50px;
+	
+}
+.mySlides1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#contacts{
+	text-align:center;
+	background-color: hsla(127, 96%, 90%, 0.6);
+}
+#contacts img{
+padding-left:20px;
+padding-right:20px;	
+padding-bottom:50px;
+	
+}
+
+#contacts h2{
+	color:black
+}
+
+#contacts img:hover{
+	opacity:50%;
+}
